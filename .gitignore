@@ -1,0 +1,21 @@
+# Ignore Eclipse specific files
+.classpath
+.project
+.settings/
+
+# Ignore build files
+bin/
+target/
+out/
+
+# Ignore OS files
+.DS_Store
+Thumbs.db
+
+# Ignore logs and temp files
+*.log
+*.tmp
+
+# Ignore database credentials if any
+*.env
+*.properties
